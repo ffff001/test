@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Smile&#39;s Blog</title>
+    <link>https://gokoururi.com/tags/</link>
+    <description>Recent content in Tags on Smile&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© 2020-2022 [Smile&#39;s Blog](/) ([License](/about/#license) under [BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))</copyright><atom:link href="https://gokoururi.com/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

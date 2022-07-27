@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Smile&#39;s Blog</title>
+    <link>https://gokoururi.com/posts/</link>
+    <description>Recent content in Posts on Smile&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>© 2020-2022 [Smile&#39;s Blog](/) ([License](/about/#license) under [BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))</copyright>
+    <lastBuildDate>Tue, 14 Jun 2022 12:55:25 +0800</lastBuildDate><atom:link href="https://gokoururi.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enhanced VPS Security (Linux)</title>
+      <link>https://gokoururi.com/posts/5/</link>
+      <pubDate>Tue, 14 Jun 2022 12:55:25 +0800</pubDate>
+      
+      <guid>https://gokoururi.com/posts/5/</guid>
+      <description>Something to say Try to use the official minimum mirror installation system, the system provided by VPS merchants may not be good.
+Avoid using the root user, try to use a normal user.
+Use a firewall and allow only the ports you need.
+Follow the principle of least privilege.
+Install as little software as possible to meet your own needs.
+Use SELinux or AppArmor, if you can.
+SSH Without a doubt, this is the most important.</description>
+    </item>
+    
+    <item>
+      <title>Deploy WireGuard</title>
+      <link>https://gokoururi.com/posts/4/</link>
+      <pubDate>Fri, 10 Jun 2022 19:41:31 +0800</pubDate>
+      
+      <guid>https://gokoururi.com/posts/4/</guid>
+      <description>Step Require Linux kernel 5.6 or above. Install wireguard-tools apt install wireguard-tools Generate public and private keys for client and server wg genkey | tee server.key | wg pubkey &amp;gt; server.pub wg genkey | tee client.key | wg pubkey &amp;gt; client.pub Generate pre-shared key (Optional) It can enhance security. You can generate and set different pre-shared keys for any client.
+wg genpsk &amp;gt; client.psk Server configuration example /etc/wireguard/wg0.conf
+[Interface]
+Address Set up a private network segment according to your own needs.</description>
+    </item>
+    
+    <item>
+      <title>Replacing the VPS system</title>
+      <link>https://gokoururi.com/posts/3/</link>
+      <pubDate>Sun, 06 Mar 2022 12:20:19 +0800</pubDate>
+      
+      <guid>https://gokoururi.com/posts/3/</guid>
+      <description>Something to say When we purchase VPS, the system of VPS is usually provided by the merchant.
+But the systems they provide usually have a few glitches. So we&amp;rsquo;re going to replace the system they provide.
+I am reluctant to use the popular scripts on the internet to replace the system of the VPS, I like to do it myself.
+This method requires the use of VNC, please make sure your VPS merchant offers VNC, usually they will, you don&amp;rsquo;t have to worry.</description>
+    </item>
+    
+    <item>
+      <title>Deploy V2Ray</title>
+      <link>https://gokoururi.com/posts/2/</link>
+      <pubDate>Sun, 04 Jul 2021 15:06:25 +0800</pubDate>
+      
+      <guid>https://gokoururi.com/posts/2/</guid>
+      <description>V2Ray History Project V Project V is a set of tools to help you build your own privacy network over internet. The core of Project V, named V2Ray, is responsible for network protocols and communications. It can work alone, as well as combine with other tools.
+(Quoted from v2ray.com)
+V2Fly V2Fly is the name of the organization recreated after the original author Victoria Raymond lost contact.
+Because the original author lost contact, other maintainers of the original GitHub repository did not have full permissions.</description>
+    </item>
+    
+    <item>
+      <title>Use ACME to issue certificates</title>
+      <link>https://gokoururi.com/posts/1/</link>
+      <pubDate>Sat, 03 Jul 2021 14:19:11 +0800</pubDate>
+      
+      <guid>https://gokoururi.com/posts/1/</guid>
+      <description>About acme.sh A pure Unix shell script implementing ACME client protocol.
+Step Get ACME curl https://get.acme.sh | bash After getting ACME successfully, its path is ~/.acme.sh/.
+It adds environment variable in ~/.bashrc.
+Update your environment variables.
+source ~/.bashrc Get DNS API I use Cloudflare as an example.
+To get Cloudflare&amp;rsquo;s DNS API, you should log in Cloudflare first.
+At the top right, click My Profile.
+Click on API Tokens on the left.</description>
+    </item>
+    
+  </channel>
+</rss>
